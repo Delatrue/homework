@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace Lesson4_1
             do
             {
                 string fullName = GetFullName();
-                Console.WriteLine($"{fullName}\nва");
+                Console.WriteLine($"{fullName}\n");
                 i++;
             }
             while (i < 4);
